@@ -44,4 +44,4 @@ enddef play(board)
   turn(board)
   counter += 1
   end
-  puts
+  puts 
