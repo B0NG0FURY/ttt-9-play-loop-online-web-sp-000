@@ -37,11 +37,11 @@ end
 
 # Define your play method below
 
-def play(board)
+ "Game Over. Sabbath rules!"
+enddef play(board)
   counter = 1
   while counter <= 9
   turn(board)
   counter += 1
   end
-  puts "Game Over. Sabbath rules!"
-end
+  puts
